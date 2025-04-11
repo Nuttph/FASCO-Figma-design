@@ -7,7 +7,6 @@ import louis from "../../assets/logo/louis_vuitton.png"
 import prada from "../../assets/logo/prada.png"
 import calvin from "../../assets/logo/calvin_klein.png"
 import denim from "../../assets/logo/denim.png"
-
 const Partner = () => {
     const partner = [
         {

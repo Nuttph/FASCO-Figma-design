@@ -18,8 +18,14 @@ const Promote = () => {
                 <img src={imgTop} alt="imgMan2" className='h-[120px] object-cover rounded-lg' />
                 
                 <div>
-                    <div className='font-medium text-[70px] text-center'>ULTIMATE</div>
-                    <div className='font-medium text-[130px] text-center text-white bg-black'>SALE</div>
+                    <div className='font-medium text-[70px] text-center text-[#484848] h-[50px]'>ULTIMATE</div>
+                    <div className='stock-black h-[200px]'>SALE</div>
+                    <div className='text-[#484848] text-[20px] text-center'>NEW COLLECTION</div>
+                    <div className='flex items-center justify-center mt-5'>
+                        <button className='bg-black text-white px-4 py-2 rounded-lg text-[20px] cursor-pointer'>
+                            SHOW NOW
+                        </button>
+                    </div>
                 </div>
 
                 <img src={imgBot} alt="imgMan2" className='h-[120px] object-cover rounded-lg' />

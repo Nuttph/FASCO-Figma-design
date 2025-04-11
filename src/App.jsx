@@ -8,6 +8,8 @@ import NewArrivals from './components/About/NewArrivals'
 import Subscibe from './components/Contact/Subscibe'
 import Customers from './components/Contact/Customers'
 import Instagram from './components/Contact/Instagram'
+import Perfm from './components/Performance/Perfm'
+import WomanCollection from './components/About/WomanCollection'
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Partner/>
       <HeroCarousel/>
       <NewArrivals/>
+      <WomanCollection/>
+      <Perfm/>
       <Instagram/>
       <Customers/>
       <Subscibe/>

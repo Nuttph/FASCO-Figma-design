@@ -7,6 +7,7 @@ import HeroCarousel from './components/About/HeroCarousel'
 import NewArrivals from './components/About/NewArrivals'
 import Subscibe from './components/Contact/Subscibe'
 import Customers from './components/Contact/Customers'
+import Instagram from './components/Contact/Instagram'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Partner/>
       <HeroCarousel/>
       <NewArrivals/>
+      <Instagram/>
       <Customers/>
       <Subscibe/>
       <Footer/>

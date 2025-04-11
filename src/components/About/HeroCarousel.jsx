@@ -179,13 +179,13 @@ export default function HeroCarousel() {
         <div className="mt-4 flex gap-4">
           <button
             onClick={prevSlide}
-            className="bg-white rounded-full p-2 shadow hover:bg-gray-100"
+            className="bg-white rounded-full p-2 shadow hover:bg-gray-100 cursor-pointer"
           >
             <ChevronLeft />
           </button>
           <button
             onClick={nextSlide}
-            className="bg-white rounded-full p-2 shadow hover:bg-gray-100"
+            className="bg-white rounded-full p-2 shadow hover:bg-gray-100 cursor-pointer"
           >
             <ChevronRight />
           </button>

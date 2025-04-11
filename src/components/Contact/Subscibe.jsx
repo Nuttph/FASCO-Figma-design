@@ -6,7 +6,7 @@ import woman from "../../assets/Contact/rightwoman.png"
 import Container from '../layouts/Container'
 const Subscibe = () => {
   return (
-    <div>
+    <div className='py-[70px]'>
         <Container>
             <div className='flex flex-row items-center justify-center'>
 

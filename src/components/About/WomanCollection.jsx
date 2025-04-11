@@ -14,7 +14,7 @@ const WomanCollection = () => {
         </div>
 
         {/* เส้นเฉียงแบ่ง */}
-        <div className="absolute top-0 left-[55%] w-[50%] h-full bg-[#DADADA] transform -skew-x-[15deg] origin-top-left"></div>
+        <div className="absolute top-0 left-[55%] w-[20%] h-full bg-[#DADADA] transform -skew-x-[15deg] origin-top-left"></div>
 
         {/* ด้านขวา: ข้อมูลสินค้า */}
         <div className="w-[45%] h-full flex items-center justify-start bg-[#DADADA] z-10">

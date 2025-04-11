@@ -135,7 +135,9 @@ const NewArrivals = () => {
               ))}
 
             </div>
-
+            <button className="w-[150px] mt-10 py-2 text-white bg-black rounded-lg cursor-pointer">
+              View More  
+            </button>
         </div>
       </Container>
     </div>

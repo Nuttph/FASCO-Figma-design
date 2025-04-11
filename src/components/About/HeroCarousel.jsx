@@ -103,7 +103,7 @@ export default function HeroCarousel() {
   ]
 
   return (
-    <div className="flex w-full gap-4 my-10 bg-gradient-to-r from-[#c7c7c7] via-orange-100 to-pink-100 pl-[200px] py-[50px]">
+    <div className="flex w-full gap-4 my-10 bg-gradient-to-r from-[#ededed] via-orange-100 to-pink-100 pl-[200px] py-[50px]">
 
     {/* Left Side: Placeholder */}
     <div className="w-4/10 flex flex-col">

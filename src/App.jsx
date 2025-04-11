@@ -5,6 +5,8 @@ import Footer from './components/layouts/Footer'
 import Partner from './components/Home/Partner'
 import HeroCarousel from './components/About/HeroCarousel'
 import NewArrivals from './components/About/NewArrivals'
+import Subscibe from './components/Contact/Subscibe'
+import Customers from './components/Contact/Customers'
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <Partner/>
       <HeroCarousel/>
       <NewArrivals/>
+      <Customers/>
+      <Subscibe/>
       <Footer/>
     </div>
   )

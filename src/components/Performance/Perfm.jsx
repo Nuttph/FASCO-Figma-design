@@ -31,17 +31,17 @@ const Perfm = () => {
         },
     ]
   return (
-    <div className='bg-[#f1f1f1] py-[40px]'>
+    <div className='duration-300 bg-[#f1f1f1] py-[25px] lg:py-[40px]'>
         <Container>
-            <div className='flex items-center justify-between'>
+            <div className='flex flex-wrap items-start sm:items-center sm:flex-row flex-col justify-start md:justify-between gap-2'>
             {performance.map((item,index)=>(
-                <div key={index} className='flex flex-row gap-3 items-center'>
+                <div key={index} className='duration-300 flex flex-row gap-3 items-center'>
                     <div>
-                        <img src={item.logo} alt={item.logo} />
+                        <img src={item.logo} alt={item.logo} className='w-[30px] sm:w-[25px] lg:w-[35px]' />
                     </div>
                     <div className='flex flex-col text-[#484848]'>
-                        <h1 className='text-[15px] font-medium'>{item.title}</h1>
-                        <p className='text-[12px]'>{item.des}</p>
+                        <h1 className='text-[16px] sm:text-[12px] md:text-[15px] font-medium'>{item.title}</h1>
+                        <p className='text-[13px] sm:text-[10px] md:text-[12px]'>{item.des}</p>
                     </div>
                 </div>
             ))}

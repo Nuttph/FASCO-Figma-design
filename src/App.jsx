@@ -21,9 +21,9 @@ const App = () => {
       {/* <Partner/> */}
       {/* <HeroCarousel/> */}
       {/* <NewArrivals/> */}
-      <WomanCollection/>
+      {/* <WomanCollection/> */}
       {/* <Perfm/> */}
-      {/* <Instagram/> */}
+      <Instagram/>
       {/* <Customers/> */}
       {/* <Subscibe/> */}
       {/* <Footer/> */}

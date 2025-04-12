@@ -1,7 +1,7 @@
 import React from 'react'
 const Container = ({children}) => {
   return (
-    <div className='px-[200px] relative'>
+    <div className='xl:px-[200px] sm:px-[50px] px-[15px] duration-300 relative'>
         {children}
     </div>
   )

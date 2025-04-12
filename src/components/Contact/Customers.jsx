@@ -58,8 +58,8 @@ const Customers = () => {
                     absolute bg-white w-[850px] flex flex-row items-center justify-center px-[50px] gap-[50px]
                     shadow-2xl transition-all duration-500 ease-in-out
                     ${isActive ? "z-10 h-[400px] scale-100 opacity-100" : ""}
-                    ${isLeft ? "z-0 h-[300px] scale-90 opacity-70 -translate-x-[900px]" : ""}
-                    ${isRight ? "z-0 h-[300px] scale-90 opacity-70 translate-x-[900px]" : ""}
+                    ${isLeft ? "z-0 h-[300px] scale-90 opacity-70 -translate-x-[300px]" : ""}
+                    ${isRight ? "z-0 h-[300px] scale-90 opacity-70 translate-x-[300px]" : ""}
                     ${!isActive && !isLeft && !isRight ? "opacity-0 scale-90" : ""}
                   `}
                 >

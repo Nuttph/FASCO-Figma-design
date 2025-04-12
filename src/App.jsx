@@ -10,10 +10,12 @@ import Customers from './components/Contact/Customers'
 import Instagram from './components/Contact/Instagram'
 import Perfm from './components/Performance/Perfm'
 import WomanCollection from './components/About/WomanCollection'
+import Education from './components/layouts/Education'
 
 const App = () => {
   return (
     <div className='flex flex-col font-poppins'>
+      <Education/>
       <Navbar/>
       <Promote/>
       <Partner/>

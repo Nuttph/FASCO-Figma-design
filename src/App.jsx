@@ -23,8 +23,8 @@ const App = () => {
       {/* <NewArrivals/> */}
       {/* <WomanCollection/> */}
       {/* <Perfm/> */}
-      <Instagram/>
-      {/* <Customers/> */}
+      {/* <Instagram/> */}
+      <Customers/>
       {/* <Subscibe/> */}
       {/* <Footer/> */}
     </div>

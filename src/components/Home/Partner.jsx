@@ -35,7 +35,7 @@ const Partner = () => {
         <div className='flex flex-col gap-10 lg:gap-0 lg:flex-row items-center justify-between mb-10'>
             {partner.map((item,index)=>(
                 <div key={index}>
-                    <img src={item.logo} alt={item.title} className='w-[300px] lg:w-[140px]' />
+                    <img src={item.logo} alt={item.title} className='duration-300 w-[100px] sm:w-[200px] lg:w-[140px]' />
                 </div>
             ))}
         </div>

@@ -10,7 +10,6 @@
 }
 .stock-black{
     text-align: center;
-    font-size: 150px;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #484848;

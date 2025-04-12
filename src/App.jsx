@@ -12,16 +12,16 @@ import Perfm from './components/Performance/Perfm'
 import WomanCollection from './components/About/WomanCollection'
 import Education from './components/layouts/Education'
 
-const App = () => {
+const App = () => {   
   return (
     <div className='flex flex-col font-poppins'>
       {/* <Education/> */}
       <Navbar/>
-      <Promote/>
-      <Partner/>
-      <HeroCarousel/>
+      {/* <Promote/> */}
+      {/* <Partner/> */}
+      {/* <HeroCarousel/> */}
       {/* <NewArrivals/> */}
-      {/* <WomanCollection/> */}
+      <WomanCollection/>
       {/* <Perfm/> */}
       {/* <Instagram/> */}
       {/* <Customers/> */}

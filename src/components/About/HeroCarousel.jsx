@@ -133,9 +133,18 @@ export default function HeroCarousel() {
           </div>
 
           {/* รูปอื่นๆ แสดงต่อจากภาพหลัก (ซ่อนในมือถือ) */}
-          <div className="hidden md:flex absolute left-[320px] top-0 gap-2 lg:gap-4">
+          <div className="
+          hidden
+          xl:flex-row
+          min-[470px]:flex
+          min-[1370px]:flex-row
+          md:hidden md:flex-col
+          lg:flex
+          sm:flex-row 
+          flex-col absolute left-[320px] top-0 gap-2 lg:gap-4
+          ">
             {slides.slice(1).map(slide => (
-              <div key={slide.id} className="w-[120px] md:w-[150px] h-[160px] md:h-[200px] opacity-60">
+              <div key={slide.id} className="w-[120px] min-[1370px]:w-[150px] h-[160px] min-[1370px]:h-[200px] opacity-60 duration-300">
                 <img
                   src={slide.image}
                   alt={slide.title}

@@ -19,7 +19,7 @@ const App = () => {
       <Navbar/>
       <Promote/>
       <Partner/>
-      {/* <HeroCarousel/> */}
+      <HeroCarousel/>
       {/* <NewArrivals/> */}
       {/* <WomanCollection/> */}
       {/* <Perfm/> */}

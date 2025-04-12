@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isOpen,setOpen] = useState(false);
   return (
     <Container>
-        <nav className="xl:py-[30px] py-[20px] duration-300 flex flex-col gap-2 md:flex-row justify-between items-center">
+        <nav className="xl:py-[30px] py-[20px] duration-300 flex flex-col gap-2 md:flex-row justify-between items-center relative">
             <div className="sm:w-[150px] flex flex-row justify-between w-full items-center">
                 <img src={fascoLogo} alt="fascoLogo" />
                 <div className="sm:hidden" onClick={()=>{
@@ -15,6 +15,7 @@ const Navbar = () => {
                 }}><PiShirtFoldedDuotone className="w-[40px] h-[40px] cursor-pointer"/></div>
             </div>
             <div className={`${isOpen ? "":"opacity-0"}
+            max-sm:absolute max-sm:top-[80px] max-sm:z-10
             max-sm:bg-gradient-to-r from-[#ededed] via-orange-100 to-pink-100 max-sm:w-full p-4 sm:items-center 
             sm:opacity-100 flex flex-col sm:flex-row font-poppins lg:gap-[64px] gap-[20px] duration-300 text-[13px] lg:text-[16px] `}>
                 <ul className="flex flex-col sm:flex-row lg:gap-[50px] gap-[30px] duration-300">

@@ -17,8 +17,8 @@ const App = () => {
     <div className='flex flex-col font-poppins'>
       {/* <Education/> */}
       <Navbar/>
-      {/* <Promote/> */}
-      {/* <Partner/> */}
+      <Promote/>
+      <Partner/>
       {/* <HeroCarousel/> */}
       {/* <NewArrivals/> */}
       {/* <WomanCollection/> */}

@@ -25,8 +25,8 @@ const App = () => {
       {/* <Perfm/> */}
       {/* <Instagram/> */}
       {/* <Customers/> */}
-      <Subscibe/>
-      {/* <Footer/> */}
+      {/* <Subscibe/> */}
+      <Footer/>
     </div>
   )
 }

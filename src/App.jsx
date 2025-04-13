@@ -15,17 +15,17 @@ import Education from './components/layouts/Education'
 const App = () => {   
   return (
     <div className='flex flex-col font-poppins'>
-      {/* <Education/> */}
+      <Education/>
       <Navbar/>
-      {/* <Promote/> */}
-      {/* <Partner/> */}
-      {/* <HeroCarousel/> */}
-      {/* <NewArrivals/> */}
-      {/* <WomanCollection/> */}
-      {/* <Perfm/> */}
-      {/* <Instagram/> */}
-      {/* <Customers/> */}
-      {/* <Subscibe/> */}
+      <Promote/>
+      <Partner/>
+      <HeroCarousel/>
+      <NewArrivals/>
+      <WomanCollection/>
+      <Perfm/>
+      <Instagram/>
+      <Customers/>
+      <Subscibe/>
       <Footer/>
     </div>
   )

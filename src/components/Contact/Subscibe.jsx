@@ -13,11 +13,12 @@ const Subscibe = () => {
             sm:flex-row items-center justify-center'>
 
                 <div className='max-sm:order-1'>
-                    <img src={man} alt="man" className='w-[200px] sm:w-full' />
+                    <img src={man} alt="man" className='max-w-[200px] sm:w-full' />
                 </div>
-                <div className='flex flex-col w-[450px] gap-4'>
+                <div className='flex flex-col max-w-[450px] '>
                     <div className='font-volkhov duration-300 text-[#484848]
-                    text-[20px]
+                    text-[20px] gap-1
+                    sm:gap-4
                     lg:text-[25px]'>Subscribe To Our Newsletter</div>
 
                     <div className=' bg-white shadow-2xl text-[12px] p-4 flex flex-col gap-8 text-[#8A8A8A]'>
@@ -32,7 +33,7 @@ const Subscibe = () => {
                     </div>
                 </div>
                 <div className=''>
-                    <img src={woman} alt="woman" className='w-[200px] sm:w-full' />
+                    <img src={woman} alt="woman" className='max-w-[200px] sm:w-full' />
                 </div>
             </div>
             

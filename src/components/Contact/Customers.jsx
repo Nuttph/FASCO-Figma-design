@@ -32,10 +32,14 @@ const Customers = () => {
   return (
     <div className="bg-gradient-to-r from-[#ededed] via-orange-100 to-pink-100 py-[100px]">
         <div className="flex flex-col">
-          <h1 className="font-volkhov text-[40px] text-[#484848] text-center">
+          <h1 className="font-volkhov duration-300
+          text-[25px]
+          sm:text-[40px] text-[#484848] text-center">
             This Is What Our Customers Say
           </h1>
-          <p className="text-[#8A8A8A] text-center">
+          <p className="text-[#8A8A8A] text-center
+          text-[13px]
+          sm:text-[16px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
             duis
           </p>
@@ -68,7 +72,8 @@ const Customers = () => {
                   </div>
                   <div className="flex flex-col">
                     <p className="mt-[20px] duration-300
-                    text-[14px]
+                    text-[12px]
+                    sm:text-[14px]
                     lg:text-[16px]">
                       "You won't regret it. I would like to personally thank you
                       for your outstanding product. Absolutely wonderful!"

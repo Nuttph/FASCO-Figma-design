@@ -5,8 +5,8 @@ import img1 from "../../assets/woman/image.png"
 
 const WomanCollection = () => {
   return (
-    <div className="bg-[#eeeeee]">
-      <div className="flex flex-col sm:flex-row h-[600px] relative justify-between">
+    <div className="bg-[#eeeeee] h-full">
+      <div className="flex flex-col sm:flex-row sm:h-[600px] relative justify-between">
         {/* ด้านซ้าย: รูปภาพหมุน */}
         <div className="w-full sm:w-[50%] flex justify-center sm:overflow-hidden">
           {/* ที่นี่คุณสามารถใส่รูปภาพหรือคอนเทนต์เพิ่มเติม */}
